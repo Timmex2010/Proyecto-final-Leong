@@ -27,7 +27,7 @@ namespace Proyecto_final
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
-            Login vnt = new Login();
+            PantallaInicial vnt = new PantallaInicial();
             vnt.Show();
         }
     }

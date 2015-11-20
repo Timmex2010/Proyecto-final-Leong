@@ -153,5 +153,16 @@ namespace Proyecto_final
             vnt.WindowState = FormWindowState.Maximized;
             vnt.Show();
         }
+
+        private void usuarioToolStripMenuItem1_Click_1(object sender, EventArgs e)
+        {
+            Alta vnt = new Alta();
+            vnt.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
