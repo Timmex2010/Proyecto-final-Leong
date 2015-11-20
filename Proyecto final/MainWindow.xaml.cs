@@ -24,5 +24,11 @@ namespace Proyecto_final
         {
             InitializeComponent();
         }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            Login vnt = new Login();
+            vnt.Show();
+        }
     }
 }

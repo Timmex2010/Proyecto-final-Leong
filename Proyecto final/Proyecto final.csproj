@@ -46,6 +46,8 @@
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -68,12 +70,107 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Compile Include="Alta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Alta.Designer.cs">
+      <DependentUpon>Alta.cs</DependentUpon>
+    </Compile>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Autor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Autor.Designer.cs">
+      <DependentUpon>Autor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Categoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Categoria.Designer.cs">
+      <DependentUpon>Categoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Comentario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Comentario.Designer.cs">
+      <DependentUpon>Comentario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultaAutor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultaAutor.Designer.cs">
+      <DependentUpon>ConsultaAutor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultaCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultaCategoria.Designer.cs">
+      <DependentUpon>ConsultaCategoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultaComentario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultaComentario.Designer.cs">
+      <DependentUpon>ConsultaComentario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultaLibro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultaLibro.Designer.cs">
+      <DependentUpon>ConsultaLibro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultaUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultaUsuario.Designer.cs">
+      <DependentUpon>ConsultaUsuario.cs</DependentUpon>
+    </Compile>
     <Compile Include="DBclass\Altas.cs" />
+    <Compile Include="DBclass\Autor.cs" />
+    <Compile Include="DBclass\Categoria.cs" />
+    <Compile Include="DBclass\Comentario.cs" />
+    <Compile Include="DBclass\Libro.cs" />
     <Compile Include="DBclass\PrincipalFP.cs" />
+    <Compile Include="DBclass\Registro.cs" />
+    <Compile Include="EliminarAutor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EliminarAutor.Designer.cs">
+      <DependentUpon>EliminarAutor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EliminarCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EliminarCategoria.Designer.cs">
+      <DependentUpon>EliminarCategoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EliminarLibro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EliminarLibro.Designer.cs">
+      <DependentUpon>EliminarLibro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EliminarUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EliminarUsuario.Designer.cs">
+      <DependentUpon>EliminarUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Libro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Libro.Designer.cs">
+      <DependentUpon>Libro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -84,7 +181,63 @@
     <Compile Include="Migrations\201511131642058_setupDB.Designer.cs">
       <DependentUpon>201511131642058_setupDB.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201511200200250_Nombre.cs" />
+    <Compile Include="Migrations\201511200200250_Nombre.Designer.cs">
+      <DependentUpon>201511200200250_Nombre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201511200411144_tablas.cs" />
+    <Compile Include="Migrations\201511200411144_tablas.Designer.cs">
+      <DependentUpon>201511200411144_tablas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201511200449103_tablas1.cs" />
+    <Compile Include="Migrations\201511200449103_tablas1.Designer.cs">
+      <DependentUpon>201511200449103_tablas1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201511200639434_tablas2.cs" />
+    <Compile Include="Migrations\201511200639434_tablas2.Designer.cs">
+      <DependentUpon>201511200639434_tablas2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201511200845419_tablas3.cs" />
+    <Compile Include="Migrations\201511200845419_tablas3.Designer.cs">
+      <DependentUpon>201511200845419_tablas3.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="ModificarAutor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModificarAutor.Designer.cs">
+      <DependentUpon>ModificarAutor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModificarCatalogo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModificarCatalogo.Designer.cs">
+      <DependentUpon>ModificarCatalogo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModificarComentario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModificarComentario.Designer.cs">
+      <DependentUpon>ModificarComentario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModificarLibro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModificarLibro.Designer.cs">
+      <DependentUpon>ModificarLibro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModificarUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModificarUsuario.Designer.cs">
+      <DependentUpon>ModificarUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PantallaInicial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PantallaInicial.Designer.cs">
+      <DependentUpon>PantallaInicial.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -98,8 +251,86 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <EmbeddedResource Include="Alta.resx">
+      <DependentUpon>Alta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autor.resx">
+      <DependentUpon>Autor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Categoria.resx">
+      <DependentUpon>Categoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Comentario.resx">
+      <DependentUpon>Comentario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultaAutor.resx">
+      <DependentUpon>ConsultaAutor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultaCategoria.resx">
+      <DependentUpon>ConsultaCategoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultaComentario.resx">
+      <DependentUpon>ConsultaComentario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultaLibro.resx">
+      <DependentUpon>ConsultaLibro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultaUsuario.resx">
+      <DependentUpon>ConsultaUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EliminarAutor.resx">
+      <DependentUpon>EliminarAutor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EliminarCategoria.resx">
+      <DependentUpon>EliminarCategoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EliminarLibro.resx">
+      <DependentUpon>EliminarLibro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EliminarUsuario.resx">
+      <DependentUpon>EliminarUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Libro.resx">
+      <DependentUpon>Libro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201511131642058_setupDB.resx">
       <DependentUpon>201511131642058_setupDB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201511200200250_Nombre.resx">
+      <DependentUpon>201511200200250_Nombre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201511200411144_tablas.resx">
+      <DependentUpon>201511200411144_tablas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201511200449103_tablas1.resx">
+      <DependentUpon>201511200449103_tablas1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201511200639434_tablas2.resx">
+      <DependentUpon>201511200639434_tablas2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201511200845419_tablas3.resx">
+      <DependentUpon>201511200845419_tablas3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModificarAutor.resx">
+      <DependentUpon>ModificarAutor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModificarCatalogo.resx">
+      <DependentUpon>ModificarCatalogo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModificarComentario.resx">
+      <DependentUpon>ModificarComentario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModificarLibro.resx">
+      <DependentUpon>ModificarLibro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModificarUsuario.resx">
+      <DependentUpon>ModificarUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PantallaInicial.resx">
+      <DependentUpon>PantallaInicial.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -115,7 +346,9 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\store-logo.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

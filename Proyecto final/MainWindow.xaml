@@ -11,6 +11,12 @@
             <ColumnDefinition Width="303*"/>
             <ColumnDefinition Width="214*"/>
         </Grid.ColumnDefinitions>
+        <Label x:Name="label" Content="Welcome!!" HorizontalAlignment="Left" Margin="180,88,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Black" FontSize="32" Width="181" Grid.ColumnSpan="2" Height="53"/>
+        <Label x:Name="label1" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Background="#FF81AE21" Height="46" Width="540" Grid.ColumnSpan="2" Margin="0,0,-23,0"/>
+        <Label x:Name="label1_Copy" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Background="#FF81AE21" Height="46" Width="540" Grid.ColumnSpan="2" Margin="0,294,-23,-21"/>
+        <Label x:Name="label1_Copy1" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Background="#FF81AE21" Height="340" Width="48" Margin="0,0,0,-21"/>
+        <Label x:Name="label1_Copy2" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Background="#FF81AE21" Height="340" Width="48" Grid.Column="1" Margin="189,0,-23,-21"/>
+        <Button x:Name="button" Content="Entrar" HorizontalAlignment="Left" Margin="208,177,0,0" VerticalAlignment="Top" Width="95" FontFamily="Microsoft Sans Serif" FontSize="16" Height="58" Click="button_Click"/>
 
     </Grid>
 </Window>
