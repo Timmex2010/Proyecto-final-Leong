@@ -33,9 +33,9 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1Plantilla)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -71,6 +71,7 @@
             this.button2.TabIndex = 2;
             this.button2.Text = "Modificar";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // textBox1
             // 
@@ -90,7 +91,6 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.button1);
             this.groupBox2.Controls.Add(this.textBox2);
             this.groupBox2.Controls.Add(this.label3);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -100,15 +100,8 @@
             this.groupBox2.TabIndex = 16;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Informacion de Comentario";
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(109, 80);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(99, 38);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Modificar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.groupBox2.Controls.SetChildIndex(this.label3, 0);
+            this.groupBox2.Controls.SetChildIndex(this.textBox2, 0);
             // 
             // textBox2
             // 
@@ -125,6 +118,15 @@
             this.label3.Size = new System.Drawing.Size(96, 20);
             this.label3.TabIndex = 0;
             this.label3.Text = "Cometario:";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(109, 80);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(99, 38);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "Modificar";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // ModificarComentario
             // 

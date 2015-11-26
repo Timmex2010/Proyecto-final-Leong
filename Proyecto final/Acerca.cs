@@ -10,21 +10,16 @@ using System.Windows.Forms;
 
 namespace Proyecto_final
 {
-    public partial class ModificarComentario : PantallaInicial
+    public partial class Acerca : Form
     {
-        public ModificarComentario()
+        public Acerca()
         {
             InitializeComponent();
         }
 
-        private void ModificarComentario_Load(object sender, EventArgs e)
+        private void okButton_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-
+            this.Close();
         }
     }
 }

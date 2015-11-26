@@ -6,17 +6,18 @@
         xmlns:local="clr-namespace:Proyecto_final"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
-    <Grid>
+    <Grid Margin="0,0,-70,-31">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="303*"/>
             <ColumnDefinition Width="214*"/>
         </Grid.ColumnDefinitions>
-        <Label x:Name="label" Content="Welcome!!" HorizontalAlignment="Left" Margin="180,88,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Black" FontSize="32" Width="181" Grid.ColumnSpan="2" Height="53"/>
-        <Label x:Name="label1" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Background="#FF81AE21" Height="46" Width="540" Grid.ColumnSpan="2" Margin="0,0,-23,0"/>
-        <Label x:Name="label1_Copy" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Background="#FF81AE21" Height="46" Width="540" Grid.ColumnSpan="2" Margin="0,294,-23,-21"/>
-        <Label x:Name="label1_Copy1" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Background="#FF81AE21" Height="340" Width="48" Margin="0,0,0,-21"/>
-        <Label x:Name="label1_Copy2" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Background="#FF81AE21" Height="340" Width="48" Grid.Column="1" Margin="189,0,-23,-21"/>
-        <Button x:Name="button" Content="Entrar" HorizontalAlignment="Left" Margin="208,177,0,0" VerticalAlignment="Top" Width="95" FontFamily="Microsoft Sans Serif" FontSize="16" Height="58" Click="button_Click"/>
+        <Label x:Name="label" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.ColumnSpan="2" Width="517" Background="#FF20721C"/>
+        <Label x:Name="label_Copy" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.ColumnSpan="2" Width="517" Background="#FF20721C" Margin="0,294,0,0"/>
+        <Label x:Name="label_Copy1" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Background="#FF20721C" Height="320"/>
+        <Label x:Name="label_Copy2" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Background="#FF20721C" Height="320" Grid.Column="1" Margin="137,0,0,0"/>
+        <Label x:Name="label1" Content="Welcome!" HorizontalAlignment="Left" Margin="214,154,0,0" VerticalAlignment="Top" FontFamily="Microsoft Sans Serif" FontSize="16" FontWeight="Bold"/>
+        <Button x:Name="button" Content="Entrar" HorizontalAlignment="Left" Margin="198,202,0,0" VerticalAlignment="Top" Width="123" FontFamily="Microsoft Sans Serif" FontSize="16" FontWeight="Bold" Height="55" Click="button_Click_1"/>
+        <Image x:Name="store_logo_png" Margin="190,56,10,201" Source="store-logo.png" Stretch="Fill"/>
 
     </Grid>
 </Window>

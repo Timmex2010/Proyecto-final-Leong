@@ -30,5 +30,12 @@ namespace Proyecto_final
             Login vnt = new Login();
             vnt.Show();
         }
+
+        private void button_Click_1(object sender, RoutedEventArgs e)
+        {
+            PantallaInicial vnt = new PantallaInicial();
+            vnt.Show();
+            this.Hide();
+        }
     }
 }

@@ -47,7 +47,7 @@
             // 
             // pictureBox1Plantilla
             // 
-            this.pictureBox1Plantilla.Location = new System.Drawing.Point(12, 37);
+            this.pictureBox1Plantilla.Location = new System.Drawing.Point(3, 52);
             // 
             // button3
             // 

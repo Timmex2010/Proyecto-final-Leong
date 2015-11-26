@@ -36,7 +36,9 @@ namespace Proyecto_final
 
 
             MessageBox.Show("Registro exito.");
-
+            textBox2.Clear();
+            textBox3.Clear();
+            textBox4.Clear();
         }
 
         private void button3_Click(object sender, EventArgs e)

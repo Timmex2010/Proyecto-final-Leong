@@ -47,13 +47,13 @@
             // 
             // pictureBox1Plantilla
             // 
-            this.pictureBox1Plantilla.Location = new System.Drawing.Point(275, 40);
+            this.pictureBox1Plantilla.Location = new System.Drawing.Point(12, 50);
             // 
             // button3
             // 
             this.button3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(382, 335);
+            this.button3.Location = new System.Drawing.Point(443, 291);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(141, 31);
             this.button3.TabIndex = 20;
@@ -65,7 +65,7 @@
             // 
             this.button2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(229, 335);
+            this.button2.Location = new System.Drawing.Point(290, 291);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(141, 31);
             this.button2.TabIndex = 19;
@@ -83,7 +83,7 @@
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(145, 128);
+            this.groupBox1.Location = new System.Drawing.Point(205, 83);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(442, 185);
             this.groupBox1.TabIndex = 18;

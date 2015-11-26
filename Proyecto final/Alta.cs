@@ -28,7 +28,7 @@ namespace Proyecto_final
 
         private void button2_Click(object sender, EventArgs e)
         {
-           
+            //El Nuevo
                 PrincipalFP db = new PrincipalFP();
                 Registro log1 = new Registro();
             
@@ -43,6 +43,12 @@ namespace Proyecto_final
 
             
             MessageBox.Show("Registro exito.");
+            textBox7.Clear();
+            textBox8.Clear();
+            textBox9.Clear();
+            textBox10.Clear();
+            textBox11.Clear();
+            textBox12.Clear();
         }
 
         private void button3_Click(object sender, EventArgs e)

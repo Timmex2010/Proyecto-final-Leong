@@ -46,7 +46,9 @@
             this.label14 = new System.Windows.Forms.Label();
             this.label1Plantilla = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.pictureBox1Plantilla = new System.Windows.Forms.PictureBox();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1Plantilla)).BeginInit();
             this.SuspendLayout();
             // 
             // textBox7
@@ -265,11 +267,22 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Informacion";
             // 
+            // pictureBox1Plantilla
+            // 
+            this.pictureBox1Plantilla.Image = global::Proyecto_final.Properties.Resources.icon_signup;
+            this.pictureBox1Plantilla.Location = new System.Drawing.Point(39, 43);
+            this.pictureBox1Plantilla.Name = "pictureBox1Plantilla";
+            this.pictureBox1Plantilla.Size = new System.Drawing.Size(84, 82);
+            this.pictureBox1Plantilla.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1Plantilla.TabIndex = 39;
+            this.pictureBox1Plantilla.TabStop = false;
+            // 
             // Alta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(716, 527);
+            this.Controls.Add(this.pictureBox1Plantilla);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -281,6 +294,7 @@
             this.Load += new System.EventHandler(this.Alta_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1Plantilla)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -304,5 +318,6 @@
         private System.Windows.Forms.Label label14;
         protected System.Windows.Forms.Label label1Plantilla;
         private System.Windows.Forms.GroupBox groupBox1;
+        protected System.Windows.Forms.PictureBox pictureBox1Plantilla;
     }
 }
